@@ -1,0 +1,31 @@
+body {
+  width: auto !important;
+  height: auto !important;
+  margin: 0px !important;
+  margin-top: 0px !important;
+  margin-left: 0px !important; }
+
+.section-holder {
+  display: flex; }
+
+.sh-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto; }
+  .sh-class p {
+    flex: 1; }
+
+#s1 {
+  background-color: grey;
+  width: 350px; }
+
+#s2 {
+  background-color: #565656;
+  width: 250px; }
+
+#s3 {
+  background-color: #f2f2f2;
+  padding: 10px; }
+
+/*# sourceMappingURL=editor.css.map */

@@ -9,7 +9,7 @@ $(function() {
       $('#pro-title').addClass("hide");
     });
 
-    $('#menu-close').click(function(){
+    $('.menu-close').click(function(){
       $('.bkg-menu').addClass("hide");
       $('#set-title').addClass('hide');
       $('#pro-title').addClass('hide');

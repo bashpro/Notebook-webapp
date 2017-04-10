@@ -1,0 +1,59 @@
+// output:main.html
+doctype html
+
+head
+
+  meta(charset="utf-8")
+  link(type="text/css" rel="stylesheet" href="ui.css")
+  script(src='https://code.jquery.com/jquery-3.2.1.min.js', integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=', crossorigin='anonymous')
+  script(src="jq-test.js")
+  
+body
+    
+  div.bkg-menu.hide
+    div.menu-box
+      div.menu-left
+      div.menu-right
+        div.mr-top
+          div.menu-title.hide#pro-title
+            p Profiles
+          div.menu-title.hide#set-title
+            p Setting 
+          div.btn#menu-close
+            p x
+        div.mr-bottom 
+      
+  div.tools.hide
+    div.profile-name
+    div.right-btns-ex
+  div.sec-holder
+    
+    div.left-menu
+      div.notebooks-sec.scrollNote2
+        div.in-nb
+          div.nb-box
+            p An
+          div.nb-box-cr
+            p +
+      div.handle
+      div.menu-btns
+        div.tools-btn#profile
+          p Pr
+        div.tools-btn#settings
+          p St
+    div.note-sec
+      div.note-text
+        div.note-tb
+          p type note in here
+      div.notes-section.scrollNote
+        div.in-ns
+    
+    div.right-sec
+      div.find-sec
+        div.find-box
+          p Find
+      div.tools-control
+        div.min-btn
+          div.in-min-btn
+        div.close-btn
+          p X

@@ -11,17 +11,25 @@ head
 body
     
   div.bkg-menu.hide
-    div.menu-box
+    div.menu-box.hide#pro-title
       div.menu-left
       div.menu-right
         div.mr-top
-          div.menu-title.hide#pro-title
+          div.menu-title
             p Profiles
-          div.menu-title.hide#set-title
-            p Setting 
-          div.btn#menu-close
+          div.btn.menu-close
             p x
-        div.mr-bottom 
+        div.mr-bottom
+        
+    div.menu-box.hide#set-title
+      div.menu-left
+      div.menu-right
+        div.mr-top
+          div.menu-title
+            p Setting 
+          div.btn.menu-close
+            p x
+        div.mr-bottom  
       
   div.tools.hide
     div.profile-name

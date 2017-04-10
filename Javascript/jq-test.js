@@ -9,7 +9,7 @@ $( document ).ready(function() {
       $('.bkg-menu').removeClass("hide");
     });
 
-    $('#menu-close').click(function(){
+    $('.menu-close').click(function(){
       $('.bkg-menu').addClass("hide");
     });
 
@@ -45,7 +45,7 @@ $( document ).ready(function() {
 
     $(function() {
 
-        $('#menu-close').click(function() {
+        $('.menu-close').click(function() {
 
             if (!$('#set-title').hasClass("hide")) {
                 $('#set-title').addClass('hide');
@@ -57,7 +57,7 @@ $( document ).ready(function() {
 
     $(function() {
 
-        $('#menu-close').click(function() {
+        $('.menu-close').click(function() {
 
             if (!$('#pro-title').hasClass("hide")) {
                 $('#pro-title').addClass('hide');

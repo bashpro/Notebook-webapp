@@ -3,3 +3,5 @@
 
  So far we only have the UI which is 90% done but will surely need a lot of improvement
  UI ver 0.0.1
+ 
+ We should also consider making proper folders for everything XD

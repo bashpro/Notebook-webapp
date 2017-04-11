@@ -5,10 +5,14 @@ head
 
   meta(charset="utf-8")
   link(type="text/css" rel="stylesheet" href="./CSS/ui.css")
+  link(rel="import" href="./html/notes.html")
   script(src='https://code.jquery.com/jquery-3.2.1.min.js', integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=', crossorigin='anonymous')
   script(src='https://cdnjs.cloudflare.com/ajax/libs/fuse.js/2.6.2/fuse.min.js', integrity='sha256-9BbBlvpi1O2SoDb/Y+8RBs87w4996sVBpPEg089WEYs=', crossorigin='anonymous')
   script(src="./Javascript/jq-test.js")
-  
+  script(src="https://www.w3schools.com/lib/w3data.js")
+  script(type="Javascript").
+    w3IncludeHTML();
+    
 body
     
   div.bkg-menu.hide
@@ -59,7 +63,8 @@ body
           
       div.notes-section.scrollNote
         div.in-ns
-    
+          div(w3-include-html="notes.html")
+          
     div.right-sec
       div.find-sec
         div.find-box

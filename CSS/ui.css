@@ -237,6 +237,9 @@ body {
   height: 2600px;
   margin-left: 10px; }
 
+#notesFile {
+  height: inherit; }
+
 .right-sec {
   flex: 1;
   height: 600px;

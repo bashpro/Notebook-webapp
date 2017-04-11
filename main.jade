@@ -12,67 +12,68 @@ head
 
     
 body
-    
-  div.bkg-menu.hide
-    div.menu-box.hide#pro-title
-      div.menu-left
-      div.menu-right
-        div.mr-top
-          div.menu-title
-            p Profiles
-          div.btn.menu-close
-            p x
-        div.mr-bottom
+  
+  div.body-holder  
+    div.bkg-menu.hide
+      div.menu-box.hide#pro-title
+        div.menu-left
+        div.menu-right
+          div.mr-top
+            div.menu-title
+              p Profiles
+            div.btn.menu-close
+              p x
+          div.mr-bottom
+          
+      div.menu-box.hide#set-title
+        div.menu-left
+        div.menu-right
+          div.mr-top
+            div.menu-title
+              p Setting 
+            div.btn.menu-close
+              p x
+          div.mr-bottom  
         
-    div.menu-box.hide#set-title
-      div.menu-left
-      div.menu-right
-        div.mr-top
-          div.menu-title
-            p Setting 
-          div.btn.menu-close
-            p x
-        div.mr-bottom  
-      
-  div.tools.hide
-    div.profile-name
-    div.right-btns-ex
+    div.tools.hide
+      div.profile-name
+      div.right-btns-ex
 
-  div.sec-holder
-    div.left-menu
-      div.notebooks-sec.scrollNote2
-        div.in-nb
-          div.nb-box
-            p An
-          div.nb-box-cr
-            p +
+    div.sec-holder
+      div.left-menu
+        div.notebooks-sec.scrollNote2
+          div.in-nb
+            div.nb-box
+              p An
+            div.nb-box-cr
+              p +
+              
+        div.handle
+        div.menu-btns
+          div.tools-btn#profile
+            p Pr
+          div.tools-btn#settings
+            p St
             
-      div.handle
-      div.menu-btns
-        div.tools-btn#profile
-          p Pr
-        div.tools-btn#settings
-          p St
-          
-    div.note-sec
-      div.note-text
-        div.note-tb
-          p type note in here
-          
-      div.notes-section.scrollNote
-        div.in-ns
-          div#notesFile
-          
-    div.right-sec
-      div.find-sec
-        div.find-box
-          input#find-input
+      div.note-sec
+        div.note-text
+          div.note-tb
+            p type note in here
+            
+        div.notes-section.scrollNote
+          div.in-ns
+            object#notesFile(data="html/notes.html")
+            
+      div.right-sec
+        div.find-sec
+          div.find-box
+            input#find-input
 
-        div#find-results
-          
-      div.tools-control
-        div.min-btn
-          div.in-min-btn
-          
-        div.close-btn
-          p X
+          div#find-results
+            
+        div.tools-control
+          div.min-btn
+            div.in-min-btn
+            
+          div.close-btn
+            p X

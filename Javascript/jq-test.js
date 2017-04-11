@@ -5,6 +5,7 @@ function getNotes(){
   ]
 }
 
+
 function renderFindResults(findResults){
   $("#find-results").html(findResults.map(result => `
     <p>${result}</p>

@@ -9,6 +9,10 @@
     font-size: 15px;
     margin-top: 15px; }
 
+body#nb-holder {
+  height: 500px !important;
+  width: 500px !important; }
+
 .hide {
   display: none !important; }
 
@@ -21,6 +25,9 @@ h1, h2, h3, h4, h5, h6, p, a {
   text-decoration: none; }
 
 body {
+  margin: 0px; }
+
+.body-holder {
   width: 1100px;
   height: 620px;
   margin: 0px;
@@ -235,7 +242,12 @@ body {
 
 .in-ns {
   height: 2600px;
-  margin-left: 10px; }
+  margin-left: 10px;
+  display: flex; }
+
+#notesFile {
+  height: inherit;
+  flex: 1; }
 
 .right-sec {
   flex: 1;
@@ -267,6 +279,21 @@ body {
 .find-box:hover {
   transition: all 0.2s;
   border-color: silver; }
+
+input#find-input {
+  height: 28px;
+  border: none;
+  transition: border 0.2s;
+  background-color: transparent !important; }
+
+input#find-input:focus {
+  border: solid 0px #969696;
+  outline: grey 1px; }
+
+input, select, textarea#find-input {
+  color: #ffffff;
+  margin: 0px;
+  text-indent: 5px; }
 
 .tools-control {
   width: 80px;

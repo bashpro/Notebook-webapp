@@ -1,3 +1,16 @@
+function getNotes(){
+  return [
+    "The first note",
+    "A second note"
+  ]
+}
+
+function renderFindResults(findResults){
+  $("#find-results").html(findResults.map(result => `
+    <p>${result}</p>
+  `).join("\n"));
+}
+
 $(function() {
     $('#settings').click(function(){
       $('.bkg-menu').removeClass("hide");
@@ -14,4 +27,12 @@ $(function() {
       $('#set-title').addClass('hide');
       $('#pro-title').addClass('hide');
     });
+
+    $("#find-input").keyup(() => {
+      var notes = getNotes();
+      var f = new Fuse(notes, {});
+      var searchResults = f.search($("#find-input").val());
+
+      renderFindResults(searchResults.map(noteI => notes[noteI]));
+    })
 });

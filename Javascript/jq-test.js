@@ -5,9 +5,9 @@ function getNotes(){
   ]
 }
 
-
-$("#notesFile").load("notes.html");
-
+$(function(){
+  $("#notesFile").load("../html/notes.html");
+});
 
 function renderFindResults(findResults){
   $("#find-results").html(findResults.map(result => `

@@ -2,7 +2,7 @@
   width: 600px;
   background-color: #fdfdfd;
   height: 50px;
-  margin-left: 10px; }
+  margin-left: 15px; }
   .note-tb p {
     margin-left: 15px;
     color: #dedede;
@@ -267,7 +267,7 @@ body {
 
 .in-ns {
   height: 2600px;
-  margin-left: 10px;
+  margin-left: 15px;
   display: flex; }
 
 #notesFile {

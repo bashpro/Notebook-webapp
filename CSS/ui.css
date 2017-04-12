@@ -9,9 +9,34 @@
     font-size: 15px;
     margin-top: 15px; }
 
-body#nb-holder {
-  height: 500px !important;
-  width: 500px !important; }
+.notesbody {
+  display: flex;
+  flex-direction: column; }
+
+.nh-section {
+  flex: 1;
+  margin-top: 10px; }
+
+.note-box {
+  display: flex; }
+
+.in-noteBox {
+  width: auto;
+  height: 45px;
+  margin-top: 10px; }
+  .in-noteBox p {
+    padding: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: white;
+    width: auto;
+    font-size: 15px; }
+
+.indent {
+  margin-left: 50px; }
+
+.indent1 {
+  margin-left: 100px; }
 
 .hide {
   display: none !important; }

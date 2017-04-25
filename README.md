@@ -9,7 +9,7 @@
 
 ## How to launch
 
-Make sure you have `http-server` installed, then click on launch.vbs or run `http-server` in your console, then navigate to http://127.0.0.1:8080/main.html in your browser
+Make sure you have `http-server` installed, then click on `launch.vbs` or run `http-server` in your console, then navigate to http://127.0.0.1:8080/main.html in your browser
  
 ## What is left to do
 1. create elements(div) and styles for the notes.

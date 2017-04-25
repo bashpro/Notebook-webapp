@@ -6,8 +6,12 @@
  UI ver 0.0.1
 
 ----
+
+## How to launch
+
+Make sure you have `http-server` installed, then click on launch.vbs or run `http-server` in your console, then navigate to http://127.0.0.1:8080/main.html in your browser
  
-## what is left to do
+## What is left to do
 1. create elements(div) and styles for the notes.
 2. functional note.
 3. js for note ID.
@@ -19,4 +23,4 @@
 9. option/menu for notes (having the ability to pin to top or edit/delete notes.).
 10. animation sequence for find section.
 11. finish layout of profiles/settings menu.
-> theres a lot more to do but this will be the main focus for now!
+> There's a lot more to do, but this will be the main focus for now!

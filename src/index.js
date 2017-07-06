@@ -40,3 +40,9 @@ $(function() {
 
     $("#find-input").keyup(() => {
       var notes = getNotes();
+      var f = new Fuse(notes, {});		
+       var searchResults = f.search($("#find-input").val());		
+ 		
+       renderFindResults(searchResults.map(noteI => notes[noteI]));		
+     })		
+ });

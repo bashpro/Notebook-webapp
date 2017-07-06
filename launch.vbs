@@ -1,4 +1,4 @@
-Set oShell = CreateObject ("Wscript.Shell") 
+Set oShell = CreateObject ("Wscript.Shell")
 Dim strArgs
 strArgs = "cmd /c batch.bat"
-oShell.Run strArgs, 0, false
+oShell.Run strArgs, 0, false 

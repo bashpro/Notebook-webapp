@@ -78,7 +78,8 @@ body {
 .menu-left {
   width: 60px;
   height: inherit;
-  display: flex; }
+  display: flex;
+  background-color: #565656; }
 
 .menu-right {
   flex: 1;

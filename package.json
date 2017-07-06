@@ -1,0 +1,26 @@
+{
+  "name": "notebook-webapp",
+  "version": "0.0.1",
+  "description": "A webapp that lets you take notes in a preferred writing style (inspired by Jade/pug)",
+  "main": "src/index.js",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "sass": "^1.0.0-beta.1",
+    "typescript": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "jade ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bashpro/Notebook-webapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bashpro/Notebook-webapp/issues"
+  },
+  "homepage": "https://github.com/bashpro/Notebook-webapp#readme"
+}

@@ -18,7 +18,7 @@ function renderFindResults(findResults){
 $(function() {
     $('#note-settings').click(function(){
       $('.bkg-menu').removeClass("hide");
-      $('#nset-title').removeClass("hide");console.log ("hi");
+      $('#nset-title').removeClass("hide");
     });
 
     $('#settings').click(function(){

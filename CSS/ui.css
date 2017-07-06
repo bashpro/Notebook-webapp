@@ -113,7 +113,23 @@ body {
     color: grey; }
 
 .mr-bottom {
+  flex: 1;
+  display: flex; }
+
+.n-b-name {
+  flex: 1;
+  height: 50px;
+  flex-direction: row;
+  display: flex; }
+
+.nb-left {
   flex: 1; }
+  .nb-left p {
+    padding: 15px;
+    font-size: 13px; }
+
+.nb-right {
+  flex: 3; }
 
 .tools {
   display: flex;

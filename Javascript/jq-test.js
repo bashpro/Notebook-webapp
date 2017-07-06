@@ -6,7 +6,7 @@ function getNotes(){
 }
 
 $(function(){
-    $("#notesFile").load("../html/notes.html"); 
+    $("#notesFile").load("../html/notes.html");
 });
 
 function renderFindResults(findResults){
@@ -16,6 +16,11 @@ function renderFindResults(findResults){
 }
 
 $(function() {
+    $('#note-settings').click(function(){
+      $('.bkg-menu').removeClass("hide");
+      $('#nset-title').removeClass("hide");console.log ("hi");
+    });
+
     $('#settings').click(function(){
       $('.bkg-menu').removeClass("hide");
       $('#set-title').removeClass("hide");
@@ -30,6 +35,7 @@ $(function() {
       $('.bkg-menu').addClass("hide");
       $('#set-title').addClass('hide');
       $('#pro-title').addClass('hide');
+      $('#nset-title').addClass('hide');
     });
 
     $("#find-input").keyup(() => {

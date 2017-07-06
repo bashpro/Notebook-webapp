@@ -3,12 +3,10 @@
   "version": "0.0.1",
   "description": "A webapp that lets you take notes in a preferred writing style (inspired by Jade/pug)",
   "main": "src/index.js",
-  "dependencies": {
+  "devDependencies": {
     "jade": "^1.11.0",
-    "sass": "^1.0.0-beta.1",
-    "typescript": "^2.4.1"
+    "node-sass": "^4.5.3"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "jade . && node-sass css -o css",

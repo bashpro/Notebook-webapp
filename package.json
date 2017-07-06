@@ -11,7 +11,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "jade ."
+    "build": "jade . && node-sass css -o css",
+    "watch": "start jade . -w && start node-sass css -o css -w"
   },
   "repository": {
     "type": "git",

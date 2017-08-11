@@ -27,7 +27,11 @@ $(window).on("beforeunload", () => {
 
 function renderFindResults(findResults){
   $("#find-results").html(findResults.map(result => `
-    <p>${result}</p>
+    <div class="note-box">
+      <div class="in-noteBox">
+        <p>${result}</p>
+      </div>
+    </div>
   `).join("\n"));
 }
 
@@ -38,6 +42,8 @@ function renderNote(note){
     </div>
   </div>`;
 }
+
+//^ add the menu html in
 
 function renderSection(section){
   return `<div class="nh-section">
@@ -87,6 +93,17 @@ var startingNotes = [
   ]
 ]
 
+function getNotes(){
+  var arr = [];
+  notes.forEach(section => {
+    section.forEach(note => {
+      arr.push(note.text)
+    })
+  })
+
+  return arr;
+}
+
 $(function() {
     $("#exit").click(() => {
       notes = null; // nonsense, so will fail when reloading
@@ -127,9 +144,9 @@ $(function() {
 
     $("#find-input").keyup(() => {
       var notes = getNotes();
-      var f = new Fuse(notes, {});		
-       var searchResults = f.search($("#find-input").val());		
- 		
-       renderFindResults(searchResults.map(noteI => notes[noteI]));		
-     })		
+      var f = new Fuse(notes, {});
+       var searchResults = f.search($("#find-input").val());
+
+       renderFindResults(searchResults.map(noteI => notes[noteI]));
+     })
  });
